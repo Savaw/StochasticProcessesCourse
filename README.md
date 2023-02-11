@@ -12,13 +12,39 @@
 
 [Link to notebook](Stoch_Fall2022_PHW1/visualization.ipynb)
 
-This notebook includes implementation of code that generate data samples
-according to following processes:
+This notebook includes implementations to generate stochastic processes:
 
-- Gaussian Process
-- Poisson Process
-- Hawkess Process
+Example:
 
+- A very pretty gaussian distribution:
+
+<p align="center">
+  <img src="SP-Code/sample-plots/gaussian.png" width="500">
+</p>
+
+- Gaussian process with RBF kernel:
+
+<p align="center">
+  <img src="SP-Code/sample-plots/g-rbf.png" width="500" >
+</p>
+
+- Brownian motion:
+
+<p align="center">
+  <img src="SP-Code/sample-plots/g-brownian.png" width="500">
+</p>
+
+- Poisson process:
+
+<p align="center">
+  <img src="SP-Code/sample-plots/point.png" width="500" >
+</p>
+
+- Hawkes process:
+
+<p align="center">
+  <img src="SP-Code/sample-plots/hawkes.png" width="500">
+</p>
 
 ## Markov Chain
 
@@ -43,3 +69,10 @@ observations
 [Link to notebook](Project/Gibbs-Sampling/gibbs.ipynb)
 
 Implemented Gibbs sampling to denoise an image.
+
+Example:
+
+<p align="center">
+  <img src="Gibbs-Sampling/initial_img.png" width="300" title="noisy image">
+  <img src="Gibbs-Sampling/new_image.png" width="300" title="denoised image">
+</p>
