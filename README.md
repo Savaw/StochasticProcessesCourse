@@ -10,7 +10,7 @@
 
 ## Implementations of Stochastic Processes
 
-[Link to notebook](Stoch_Fall2022_PHW1/visualization.ipynb)
+[Link to notebook](SP-Code/visualization.ipynb)
 
 This notebook includes implementations to generate stochastic processes:
 
